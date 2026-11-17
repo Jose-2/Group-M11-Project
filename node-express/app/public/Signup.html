@@ -31,16 +31,16 @@
     <main>
         <h3>Sign Up</h3>
         <section>
-            <form id = "myForm" action = "#" method = "post">
+            <form id = "myForm" action = "/contact" method = "post">
                 <fieldset>
                     <legend>Contact Form</legend>
                     <label for="name">Name*:</label>
-                    <input type = "text" id = "name"  required></input>
+                    <input type = "text" id = "name" name = "name" required></input>
                     <label for = "email">Email*:</label>
-                    <input type = "email" id = "email" required></input>
+                    <input type = "email" id = "email" name = "email" required></input>
                     <label for = "message">Message*:</label>
                     <textarea id = "message" rows = "4" cols= "50" required></textarea>
-                    <input type = "submit" value = "Send Message" >
+                    <input type = "submit" value = "Send Message" name = "message" >
                     <p class = "confirmMessage">* Required Field</p>
                 </fieldset>
 
