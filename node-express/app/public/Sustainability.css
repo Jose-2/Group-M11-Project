@@ -1,0 +1,80 @@
+nav ul{
+    list-style: none;
+}
+nav ul li{
+    display: inline;
+    padding: 25px;
+
+}
+nav ul li a{
+    text-decoration: none;
+    padding: 5px;
+}
+nav{
+    text-align: center;
+    padding: 8px;
+    height: 100px;
+}
+nav ul li a:hover{
+    color: #fff;
+    background-color: #7f869a;
+
+}
+nav ul li a:visited{
+    color: #003366;
+    background-color: #7f869a;
+
+}
+.active{
+    border-bottom: 3px solid #32312f;
+}
+#icon{
+    display: none;
+}
+form{
+    display: flex;
+}
+fieldset{
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    width: 92%;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #7f869a;
+    border-radius: 5px;
+        
+}
+legend{
+    padding: 5px;
+    font-size: medium;
+    word-spacing: 4px;
+}
+input, textarea{
+    display: block;
+    width: 95%;
+    padding: 10px;
+    margin: 0px 5px 0px 5px;
+    border-width: 1px;
+    border-color: dodgerblue;
+}
+
+label{
+    display:block;
+    width: 100%;
+    margin: 1%;
+}
+input[type = "submit"]{
+    background-color: #B8195A;
+    color: #fff;
+    margin: 2% 40% 2% 40%;
+    padding: 6px 10px 6px 10px;
+    font-weight: 700px;
+    font-size: 16px;
+    border: 2px;
+    border-color: #B8195A;
+    min-width: 150px;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
